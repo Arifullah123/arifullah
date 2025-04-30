@@ -1,0 +1,210 @@
+[10:18 pm, 29/4/2025] arifullahfaizi.GSM: <!DOCTYPE html><html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arifullah Faizi GSM</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Tahoma, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #1f2937;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services, .contact {
+      background: white;
+      margin-top: 20px;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .contact a {
+      color: #0d6efd;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #1f2937;
+      color: white;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Arifullah Faizi GSM</h1>
+    <p>تعمیرات حرفه‌ای موبایل - نرم‌افزار و سخت‌افزار</p>
+  </header>
+  <nav>
+    <a href="#services">خدمات</a>
+    <a href="#order">ثبت سفارش</a>
+    <a href="#contact">تماس با ما</a>
+  </nav>
+  <section class="services" id="services">
+    <h2>خدمات ما</h2>
+    <ul>
+      <li>تعمیر سخت‌افزار (LCD، باتری، برد)</li>
+      <li>فلش و نصب نرم‌افزار</li>
+      <li>بازیابی اطلاعات</li>
+      <li>باز کردن قفل و آنلاک شبکه</li>
+    </ul>
+  </section>
+  <section class="services" id="order">
+    <h2>ثبت سفارش آنلاین</h2>
+    <form>
+      <label>نام کامل:<br><input type="text" required></label><br><br>
+      <label>مدل موبایل:<br><input type="text" required></label><br><br>
+      <label>مشکل دستگاه:<br><textarea required></textarea></label><br><br>
+      <button type="submit">ارسال سفارش</button>
+    </form>
+  </section>
+  <section class="contact" id="contact">
+    <h2>تماس با ما</h2>
+    <p>شماره تماس و واتساپ: <a href="https://wa.me/0093792902758">0093792902758</a></p>
+    <p>ایمیل: support@faizigsm.com</p>
+  </section>
+  <footer>
+    &copy; 2025 Arifullah Faizi GSM. All rights reserved.
+  </footer>
+</body>
+</html>
+[10:24 pm, 29/4/2025] arifullahfaizi.GSM: <!DOCTYPE html><html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arifullah Faizi GSM</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Tahoma, sans-serif;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+      color: white;
+      padding: 20px;
+      text-align: center;
+      animation: fadeIn 2s;
+    }
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      background-color: #1f2937;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .language-switch {
+      display: flex;
+      justify-content: flex-end;
+      gap: 15px;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .services, .contact {
+      background: white;
+      margin-top: 20px;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      animation: slideIn 1s ease-out;
+    }
+    .contact a {
+      color: #0d6efd;
+    }
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #1f2937;
+      color: white;
+      margin-top: 40px;
+    }
+    @media (max-width: 768px) {
+      nav {
+        flex-direction: column;
+      }
+      section {
+        padding: 20px;
+      }
+    }
+    @keyframes fadeIn {
+      0% { opacity: 0; }
+      100% { opacity: 1; }
+    }
+    @keyframes slideIn {
+      0% { transform: translateX(100%); }
+      100% { transform: translateX(0); }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Arifullah Faizi GSM</h1>
+    <p>تعمیرات حرفه‌ای موبایل - نرم‌افزار و سخت‌افزار</p>
+  </header>
+  <nav>
+    <a href="#services">خدمات</a>
+    <a href="#order">ثبت سفارش</a>
+    <a href="#contact">تماس با ما</a>
+  </nav>
+  <div class="language-switch">
+    <a href="#">فارسی</a> | <a href="#">English</a>
+  </div>
+  <section class="services" id="services">
+    <h2>خدمات ما</h2>
+    <ul>
+      <li>تعمیر سخت‌افزار (LCD، باتری، برد)</li>
+      <li>فلش و نصب نرم‌افزار</li>
+      <li>بازیابی اطلاعات</li>
+      <li>باز کردن قفل و آنلاک شبکه</li>
+    </ul>
+  </section>
+  <section class="services" id="order">
+    <h2>ثبت سفارش آنلاین</h2>
+    <form>
+      <label>نام کامل:<br><input type="text" required></label><br><br>
+      <label>مدل موبایل:<br><input type="text" required></label><br><br>
+      <label>مشکل دستگاه:<br><textarea required></textarea></label><br><br>
+      <button type="submit">ارسال سفارش</button>
+    </form>
+  </section>
+  <section class="contact" id="contact">
+    <h2>تماس با ما</h2>
+    <p>شماره تماس و واتساپ: <a href="https://wa.me/0093792902758">0093792902758</a></p>
+    <p>ایمیل: support@faizigsm.com</p>
+  </section>
+  <footer>
+    &copy; 2025 Arifullah Faizi GSM. All rights reserved.
+  </footer>
+</body>
+</html>
